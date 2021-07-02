@@ -41,7 +41,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('client-statuses/destroy', 'ClientStatusController@massDestroy')->name('client-statuses.massDestroy');
     Route::resource('client-statuses', 'ClientStatusController');
 
-    // Project Status
+    // Process Status
     Route::delete('project-statuses/destroy', 'ProjectStatusController@massDestroy')->name('project-statuses.massDestroy');
     Route::resource('project-statuses', 'ProjectStatusController');
 
@@ -49,7 +49,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('clients/destroy', 'ClientController@massDestroy')->name('clients.massDestroy');
     Route::resource('clients', 'ClientController');
 
-    // Project
+    // Process
     Route::delete('projects/destroy', 'ProjectController@massDestroy')->name('projects.massDestroy');
     Route::resource('projects', 'ProjectController');
 
