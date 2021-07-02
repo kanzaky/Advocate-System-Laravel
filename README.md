@@ -3,7 +3,7 @@
  ×
 Deployment
 
-Extract the archive and put it in the folder you want
+Push using Git in the folder you want
 
 Run cp .env.example .env file to copy example file to .env
 
@@ -27,6 +27,4 @@ Default credentials
 Username: admin@admin.com
 
 Password: password
-
-For more information, potential errors and related links, you can read more detailed installation guide here
 
